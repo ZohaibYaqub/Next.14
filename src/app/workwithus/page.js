@@ -15,19 +15,23 @@ const workwithus = () => {
             <h2 className="text-gray-900 text-lg mb-1 font-medium title-font">Apply Now</h2>
             <div className="relative mb-2">
               <label htmlFor="email" className="leading-7 text-sm text-gray-600">Name</label>
-              <input forlabel="name" id="name" name="name"  required className=" w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
+              <input type="text" id="email" name="email" className="w-full bg-gray-100 rounded border border-transparent outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
+
             </div>
             <div className="relative mb-2">
               <label htmlFor="email" className="leading-7 text-sm text-gray-600">Email</label>
-              <input forlabel="email" id="email" name="email" required className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
+              <input type="text" id="email" name="email" className="w-full bg-gray-100 rounded border border-transparent outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
+
             </div>
             <div className="relative mb-2">
               <label htmlFor="email" className="leading-7 text-sm text-gray-600">Phone Number</label>
-              <input forlabel="phoneno" id="phoneno" name="phoneno" required className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
+              <input type="text" id="email" name="email" className="w-full bg-gray-100 rounded border border-transparent outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
+
             </div>
             <div className="relative mb-2">
               <label htmlFor="email" className="leading-7 text-sm text-gray-600">Link For Resume</label>
-              <input forlabel="cv" id="cv" name="cv"  required className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
+              <input type="text" id="email" name="email" className="w-full bg-gray-100 rounded border border-transparent outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
+
             </div>
             <div className="relative mb-2">
               <label htmlFor="message" className="leading-7 text-sm text-gray-600">Skills</label>
