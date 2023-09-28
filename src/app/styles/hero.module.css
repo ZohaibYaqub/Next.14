@@ -20,7 +20,7 @@
 
 .free {
     padding: 11px 13px;
-    font-size: 14px;
+    font-size: 15px;
     margin: 10px 0;
     border: none;
     border-radius: 5px;
@@ -85,10 +85,10 @@
         font-size: 20px;
     }
     .para{
-        font-size: 14px;
+        font-size: 15px;
     }
     .free{
         padding: 9px 11px;
-        font-size: 13px;
+        font-size: 14px;
     }
 }

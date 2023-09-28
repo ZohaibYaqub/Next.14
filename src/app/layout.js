@@ -1,6 +1,6 @@
 
-import Header from './components/header'
-import header from './components/header'
+
+import Newheader from '@/app/components/newheader'
 import main from './components/main'
 
 
@@ -26,12 +26,12 @@ export default function RootLayout({ children }) {
 
       <body >
 
-      <Header/>
+        <Newheader />
         {main()}
 
 
         {children}
-        </body>
+      </body>
     </html>
   )
 }

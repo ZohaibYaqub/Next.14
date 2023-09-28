@@ -13,8 +13,8 @@ module.exports = {
       'superiorcodelabs.com',
       'www.xpand-it.com',
       'res.cloudinary.com',
-      'dummyimage.com', // Add 'dummyimage.com' here
-      // Add any other image domains you might use
+      'dummyimage.com', 
+     
     ],
   },
 };
