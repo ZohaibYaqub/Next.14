@@ -22,6 +22,22 @@ const Header = () => {
                 menu.style.top = '-100px';
             }
         });
+        menuLinks.forEach((link) => {
+    link.addEventListener('click', () => {
+        if (menuToggle.checked) {
+            menuToggle.checked = false; // Hamburger menu toggle ko unchecked karein
+        }
+    });
+});
+
+menuButtons.forEach((button) => {
+    button.addEventListener('click', () => {
+        if (menuToggle.checked) {
+            menuToggle.checked = false; // Hamburger menu toggle ko unchecked karein
+        }
+    });
+});
+
 
         menuLinks.forEach((link) => {
             link.addEventListener('click', () => {

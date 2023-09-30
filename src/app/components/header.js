@@ -31,10 +31,11 @@ const Header = () => {
           </ul>
         </div>
         <div className={`${styles.hamburger} ${isMenuOpen ? styles.active : ''}`} onClick={toggleMenu}>
-          <span className={styles.bar}></span>
-          <span className={styles.bar}></span>
-          <span className={styles.bar}></span>
+          <span className={`${styles.bar} ${isMenuOpen ? styles.active : ''}`}></span>
+          <span className={`${styles.bar} ${isMenuOpen ? styles.active : ''}`}></span>
+          <span className={`${styles.bar} ${isMenuOpen ? styles.active : ''}`}></span>
         </div>
+
 
       </div>
     </>

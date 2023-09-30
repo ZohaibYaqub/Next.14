@@ -1,11 +1,7 @@
-
-
-import Newheader from '@/app/components/newheader'
 import main from './components/main'
-
-
 import './globals.css'
 import { Ubuntu } from 'next/font/google'
+import Header from './components/header'
 
 
 
@@ -26,7 +22,7 @@ export default function RootLayout({ children }) {
 
       <body >
 
-        <Newheader />
+        <Header />
         {main()}
 
 
