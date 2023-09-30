@@ -130,9 +130,9 @@
 
     .navlist {
         position: fixed;
-        left: 0;
+        left: -100%;
 
-        top: -100%;
+          top: 11%; 
         flex-direction: column;
         background-color: black;
         width: 100%;
@@ -148,8 +148,9 @@
     }
 
     .navlist.active {
-        left: 0;
-        top: 15%;
+        left: 0%;
+         top: 11%;
+        /* right: 20%; */
 
     }
 
@@ -184,6 +185,7 @@
 
     .button {
         margin: 0.5rem 0;
+        
     }
 
 
