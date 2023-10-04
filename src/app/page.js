@@ -1,27 +1,27 @@
 import React from 'react'
-import hero from './components/hero'
-import footer from './components/footer'
-import learn from './components/learn'
-import score from './components/score'
+import Hero from './components/hero'
+import Footer from './components/footer'
+import Learn from './components/learn'
+import Score from './components/score'
 
 
 
 
 const page = () => {
   return (
-    
+
     <>
-    
-    {hero()}
-    {learn()}
-    {score()}
-    {footer()}
-    
-   
+     
+        <Hero />
+        <Learn />
+        <Score />
+        <Footer />
+      
+
     </>
-  
-   
-    
+
+
+
   )
 }
 

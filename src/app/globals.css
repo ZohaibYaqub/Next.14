@@ -5,6 +5,7 @@
 @import 'tailwindcss/utilities';
 
 
+
 * {
     margin: 0;
     padding: 0;
@@ -13,10 +14,32 @@
 
 }
 
+
+
 body {
     overflow-x: hidden;
+
+
 }
 
+
+
+/* styles/globals.css */
+
+body {
+    background-color: #fff;
+    /* Light mode background color */
+    color: #333;
+    /* Light mode text color */
+}
+
+/* Dark mode styles */
+body.dark {
+    background-color: rgb(17 24 39);
+    /* Dark mode background color */
+    color: #fff;
+    /* Dark mode text color */
+}
 
 .grid {
     display: grid;
@@ -35,6 +58,21 @@ body {
 
 
 }
+.button {
+    display: flex;
+    margin: 4px 0;
+    padding: 7px 13px;
+    cursor: pointer;
+    border: none;
+    border-radius: 7px;
+    font-size: 15px;
+    background-color: #3AF507;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+
+
+
+}
 
 @media (max-width:1024px) {
     .grid {
@@ -43,23 +81,3 @@ body {
     }
 }
 
-/* new header responsive */
-@media (max-width:768px) {
-    .button {
-        display: flex;
-        margin: 4px 0;
-        padding: 7px 13px;
-        cursor: pointer;
-        border: none;
-        border-radius: 7px;
-        font-size: 15px;
-        background-color: #3AF507;
-        color: black;
-        font-family: 'Poppins', sans-serif;
-
-
-
-    }
-
-
-}

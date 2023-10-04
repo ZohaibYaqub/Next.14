@@ -31,7 +31,7 @@
 }
 
 .free:hover {
-    background-color: black;
+    background-color:#14d217 ;
     color: white;
 }
 
@@ -50,6 +50,9 @@
     font-family: 'Poppins', sans-serif;
 }
 
+
+
+
 @media (max-width:1024px) {
 
     .img {
@@ -62,32 +65,37 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-top:45%;
-       
+        margin-top: 45%;
+
     }
 
-   
+
 }
 
-@media (max-width:768px){
-    .nav{
+@media (max-width:768px) {
+    .nav {
         display: none;
     }
-    .main{
+
+    .main {
         display: flex;
         justify-content: space-between;
         padding: 0 25px;
     }
-    .intro{
+
+    .intro {
         font-size: 30px;
     }
-    .intro1{
+
+    .intro1 {
         font-size: 20px;
     }
-    .para{
+
+    .para {
         font-size: 15px;
     }
-    .free{
+
+    .free {
         padding: 9px 11px;
         font-size: 14px;
     }

@@ -11,9 +11,7 @@ const main = () => {
         <>
             <div className={styles.main}>
 
-                <Link href="/">
-                    <i className={styles.i}>{MdHouse()}</i>
-                </Link>
+               
 
                 <ul className={styles.nav}>
 
@@ -34,7 +32,7 @@ const main = () => {
 
 
                 </ul>
-                <i className={styles.i}>{MdSearch()}</i>
+               
                 
             </div>
 

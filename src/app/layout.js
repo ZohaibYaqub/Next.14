@@ -1,7 +1,10 @@
+
 import main from './components/main'
 import './globals.css'
 import { Ubuntu } from 'next/font/google'
 import Header from './components/header'
+
+
 
 
 
@@ -18,16 +21,19 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
+
     <html lang="en" className={ubuntu.className}>
 
       <body >
+        
+          <Header />
+          {main()}
 
-        <Header />
-        {main()}
 
-
-        {children}
+          {children}
+       
       </body>
     </html>
+
   )
 }

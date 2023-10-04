@@ -39,7 +39,7 @@
     
 }
 .li:hover {
-    color: #14d217;
+    color: #3AF507
 
 }
 .a {
@@ -55,5 +55,7 @@
         display: flex;
         justify-content: space-between;
         padding: 0 13px;
+        box-shadow: none;
+        z-index: 1000;
     }
 }
